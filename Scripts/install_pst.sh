@@ -59,11 +59,10 @@ if pkg_installed interception-caps2esc; then
     echo -e "\033[0;32m[REMAPER]\033[0m remapping capslock..."
 
     sudo touch udevmon.yaml
-    sudo | tee echo '- JOB: intercept -g $DEVNODE | caps2esc | uinput -d $DEVNODE
+    echo '- JOB: intercept -g $DEVNODE | caps2esc | uinput -d $DEVNODE
   DEVICE:
     EVENTS:
-      EV_KEY: [KEY_CAPSLOCK, KEY_ESC]
-' >udevmon.yaml
+      EV_KEY: [KEY_CAPSLOCK, KEY_ESC]' | sudo tee /etc/interception/udevmon.yaml >/dev/null
   else
     echo -e "\033[0;33m[SKIP]\033[0m capslock is already remapped..."
   fi
