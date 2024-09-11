@@ -14,8 +14,11 @@ fi
 ThemeOverride="${3:-}"
 
 if pkg_installed git && pkg_installed stow; then
-  git clone https://github.com/manangulati9/.dotfiles "$HOME/.dotfiles/"
-  stow -d "$HOME"/.dotfiles -t "$HOME/" $(ls -d */)
+
+  if [ ! -d "$HOME"/.dotfiles/ ]; then
+    git clone https://github.com/manangulati9/.dotfiles "$HOME/.dotfiles/"
+  fi
+  stow -d "$HOME"/.dotfiles -t "$HOME/" $(ls -d "$HOME"/.dotfiles/*/ | xargs -n 1 basename)
 else
   echo -e "\033[0;33m[SKIP]\033[0m dotfiles are already configured..."
 fi
