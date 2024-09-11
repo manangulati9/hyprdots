@@ -15,6 +15,7 @@ bluez-utils                                            # bluetooth utility cli
 blueman                                                # bluetooth manager gui
 brightnessctl                                          # screen brightness control
 udiskie                                                # manage removable media
+interception-caps2esc                                  # remap capslock to esc/ctrl
 
 # --------------------------------------------------- // Display Manager
 sddm                                                   # display manager for KDE plasma
@@ -31,7 +32,6 @@ swww                                                   # wallpaper
 swaylock-effects-git                                   # lock screen
 wlogout                                                # logout menu
 grimblast-git                                          # screenshot tool
-hyprpicker                                             # color picker
 slurp                                                  # region select for screenshot/screenshare
 swappy                                                 # screenshot editor
 cliphist                                               # clipboard manager
@@ -48,6 +48,9 @@ qt5-imageformats                                       # for dolphin image thumb
 ffmpegthumbs                                           # for dolphin video thumbnails
 kde-cli-tools                                          # for dolphin file type defaults
 libnotify                                              # for notifications
+nodejs                                                 # node framework
+rustup                                                 # rust framework
+npm                                                    # npm package manager
 
 # --------------------------------------------------- // Theming
 nwg-look                                               # gtk configuration tool
@@ -59,12 +62,16 @@ qt5-wayland                                            # wayland support in qt5
 qt6-wayland                                            # wayland support in qt6
 
 # --------------------------------------------------- // Applications
-firefox                                                # browser
+zen-browser-bin                                        # browser
 kitty                                                  # terminal
 dolphin                                                # kde file manager
 ark                                                    # kde file archiver
-vim                                                    # terminal text editor
-code                                                   # ide text editor
+neovim                                                 # terminal text editor
+libreoffice-fresh                                      # libreoffice suite
+spotify                                                # spotify client
+downgrade                                              # downgrade packages
+trash-cli-git                                          # cli to manage trash files
+stow                                                   # dotfiles manager
 
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
@@ -73,7 +80,3 @@ zsh-theme-powerlevel10k-git|zsh oh-my-zsh-git          # theme for zsh
 eza|fish                                               # file lister for fish
 starship|fish                                          # customizable shell prompt
 fastfetch                                              # system information fetch tool
-pokemon-colorscripts-git|zsh                           # display pokemon sprites
-
-# --------------------------------------------------- // HyDE
-hyde-cli-git                                           # cli tool to manage hyde
