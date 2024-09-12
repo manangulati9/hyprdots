@@ -82,4 +82,5 @@ fastfetch                                              # system information fetc
 fzf                                                    # faster file search
 zoxide                                                 # better cd
 autojump                                               # jump paths
-tmux
+tmux                                                   # it's tmux
+lazygit                                                # git ui
