@@ -16,6 +16,9 @@ blueman                                                # bluetooth manager gui
 brightnessctl                                          # screen brightness control
 udiskie                                                # manage removable media
 interception-caps2esc                                  # remap capslock to esc/ctrl
+downgrade                                              # downgrade packages
+trash-cli-git                                          # cli to manage trash files
+docker                                                 # docker cli
 
 # --------------------------------------------------- // Display Manager
 sddm                                                   # display manager for KDE plasma
@@ -67,6 +70,9 @@ dolphin                                                # kde file manager
 ark                                                    # kde file archiver
 neovim                                                 # terminal text editor
 stow                                                   # dotfiles manager
+zen-browser-bin                                        # browser
+libreoffice-fresh                                      # libreoffice suite
+spotify                                                # proprietary music streaming service
 
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
