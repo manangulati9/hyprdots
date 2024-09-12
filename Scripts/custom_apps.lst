@@ -1,6 +1,7 @@
 # --------------------------------------------------- // System
 downgrade                                              # downgrade packages
 trash-cli-git                                          # cli to manage trash files
+docker                                                 # docker cli
 # libinput-gestures                                    # actions touchpad gestures using libinput
 # gestures                                             # gui for libinput-gestures
 
