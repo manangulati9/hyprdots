@@ -77,7 +77,7 @@ spotify                                                # proprietary music strea
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
 oh-my-zsh-git|zsh                                      # plugin manager for zsh
-oh-my-posh|zsh                                         # theme for zsh
+zsh-theme-powerlevel10k-git|zsh                        # theme for zsh
 fastfetch                                              # system information fetch tool
 fzf                                                    # faster file search
 zoxide                                                 # better cd
