@@ -19,7 +19,7 @@ if pkg_installed git && pkg_installed stow; then
     git clone https://github.com/manangulati9/.dotfiles "$HOME/.dotfiles/"
   fi
   stow -R --adopt -d "$HOME"/.dotfiles -t "$HOME/" $(ls -d "$HOME"/.dotfiles/*/ | xargs -n 1 basename)
-  git restore .
+  git -C "$HOME"/.dotfiles restore .
 else
   echo -e "\033[0;33m[SKIP]\033[0m dotfiles are already configured..."
 fi
