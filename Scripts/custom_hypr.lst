@@ -73,6 +73,7 @@ stow                                                   # dotfiles manager
 zen-browser-bin                                        # browser
 libreoffice-fresh                                      # libreoffice suite
 spotify                                                # proprietary music streaming service
+yazi                                                   # terminal file manager
 
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
