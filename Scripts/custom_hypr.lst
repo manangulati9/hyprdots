@@ -73,7 +73,7 @@ stow                                                   # dotfiles manager
 zen-browser-bin                                        # browser
 libreoffice-fresh                                      # libreoffice suite
 spotify                                                # proprietary music streaming service
-yazi                                                   # terminal file manager
+vesktop                                                # discord client
 
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
@@ -85,3 +85,4 @@ zoxide                                                 # better cd
 autojump                                               # jump paths
 tmux                                                   # it's tmux
 lazygit                                                # git ui
+yazi                                                   # terminal file manager
